@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap%27');
+
+body{
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+#sec2-none-img{
+    display: none;
+}
+#header{
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+#header-but{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    color: #162542;
+    background-color: #E8EFF2;
+    width: 150px;
+    height: 48px;
+    cursor: pointer;
+}
+
+#sec2-heading{
+    font-size: 50px;
+    font-weight: bold;
+    color: #162542;
+    line-height: 48px;
+    width: 327px;
+    margin: 0;
+}
+
+#sec2-paragraph{
+    font-size: 16px;
+    font-weight: 500;
+    color: #7B8BAD;
+    width: 327px;
+    line-height: 26px;
+}
+#sec2-but{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #F16718;
+    width: 150px;
+    height: 48px;
+}
+#sec2end-p{
+    font-size: 16px;
+    color: #7B8BAD;
+    font-weight: 700;
+    padding-right: 20px;
+}
+#sec2-end{
+    display: flex;
+    justify-content: space-between;
+}
+#section2{
+    padding: 24px;
+    overflow: hidden;
+}
+
+#sec2-img{
+    width: 360px;
+    height: 330px;
+    border-radius: 15px;
+}
+#sec3-photos{
+    display: flex;
+}
+#sec3-img1{
+   
+    width: 129px;
+    height: 193px;
+    border-radius: 10px;
+    margin-left: -25px;
+    
+}
+#orange-cover{
+    position: relative;
+    background-color: #f16818aa;
+    margin-left: -124px;
+    border-radius: 10px;
+    width: 125px;
+    height: 193px;
+}
+#sec3-img2{
+    width: 220px;
+    height: 193px;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+#sec3-heading{
+    color: #162542;
+    width: 250px;
+    font-size: 32px;
+    line-height: 36px;
+    margin: auto;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 40px;
+
+}
+
+#sec3-paragraph{
+    color: #7B8BAD;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: auto;
+    text-align: center;
+    width: 320px;
+    padding-top: 20px;
+}
+
+
+#card-img-div{
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#card-heading{
+    font-size: 24px;
+    font-weight: 900;
+    margin: auto;
+    width: 150px;
+    text-align: center;
+}
+#card{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#card-paragraph{
+    width: 327px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7B8BAD;
+    text-align: center;
+}
+#card1{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+#card2{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+#card3{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+#ending-paragraph{
+    color: #7B8BAD;
+    font-size: 16px;
+    margin: auto;
+    font-weight: 500;
+    width: 290px;
+    text-align: center;
+}
+
+
+@media (min-width:750px){
+    #header-but{
+        width: 175px;
+        height: 58px;
+    }
+    #sec2-none-img{
+        display: none;
+    }
+
+    #header-logo{
+        width: 40px;
+        height: 40px;
+    }
+    #sec2-centre{
+        display: flex;
+        justify-content: space-between;
+    }
+    #header{
+        padding: 36px;
+    }
+    #section2{
+        padding: 36px;
+    }
+    #sec3-img1{
+        margin: 0;
+        width: 214px;
+        height: 320px;
+    }
+    #orange-cover{
+        margin: 0;
+        width: 214px;
+        height: 320px;
+        margin-left: -274px;
+
+    }
+    #sec3-img2{
+        width: 445px;
+        height: 320px;
+    }
+    #sec3-photos{
+        padding: 36px;
+        justify-content: space-between;
+    }
+    #sec3-texts{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 36px;
+    }
+    #sec3-heading{
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    #sec3-paragraph{
+        text-align: left;
+        width: 400px;
+        margin: 0;
+        padding: 0;
+    }
+    #card-img-div{
+        margin: 0;
+    }
+    #card-heading{
+        margin: 0;
+        text-align: left;
+    }
+    #card-paragraph{
+        text-align: left;
+    }
+    #card{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #card1{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #card2{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #card3{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #section4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media(min-width:1440px){
+    #header{
+        padding: 55px 165px 0 165px;
+    }
+    #section2{
+        padding: 0;
+    }
+    #sec2-centre{
+        padding: 80px 165px 0 165px;
+        align-items: center;
+
+    }
+    #sec2-none-img{
+        display: block;
+        margin-left: 93%;
+        margin-top: -300px;
+    }
+    #sec3-photos{
+        padding-top: 100px;
+    }
+    #section3{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 100px 165px 0 165px;
+    }
+    #sec3-texts{
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    #sec3-paragraph{
+        width: 250px;
+    }
+    #sec3-img2{
+        width: 445px;
+        height: 480px;
+    }
+    #sec3-img1{
+        width: 255px;
+        height: 480px;
+    }
+    #orange-cover{
+        width: 255px;
+        height: 480px;
+        display: none;
+    }
+    #sec3-photos{
+        padding: 0;
+    }
+    #section4{
+        padding: 0 165px 0 165px;
+    }
+    #card-paragraph{
+        width: 255px;
+    }
+    #sec2-none-div{
+        width: 100%;
+        overflow: hidden;
+    }
+}
